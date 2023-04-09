@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "_id":"food1",
+            "name": "Ebi Nigiri 2pcs",
+            "price": 50000,
+            "desc": "Shrimp nigiri sushi",
+            "picturePath": "https://i.pinimg.com/236x/0a/e1/bc/0ae1bcd18b15eb96f415b4e9109ab4b7.jpg",
+            "type": "sushi"
+        },
+        {
+            "_id":"food2",
+            "name": "Unagi Nigiri 2pcs",
+            "price": 45000,
+            "desc": "Eel nigiri sushi",
+            "picturePath": "https://i.pinimg.com/236x/f7/3f/60/f73f60d2363779b16247cb3c5c63ccec.jpg",
+            "type": "sushi"
+        },
+        {
+            "_id":"food3",
+            "name": "Hamachi Sashimi",
+            "price": 230000,
+            "desc": "Fresh Yellowtail (Imported)",
+            "picturePath": "https://i.pinimg.com/236x/38/9c/f3/389cf33dd5013e4c8e1bdfbf070ab6d0.jpg",
+            "type": "sashimi"
+        },
+        {
+            "_id": "food4",
+            "name": "Pork Shogayaki Bento",
+            "price": 110000,
+            "desc": "Ginger-grilled Pork Bento set: Ginger-grilled Pork, Rice, Salad, Fruits, Pickles and Miso soup",
+            "picturePath": "https://i.pinimg.com/236x/93/02/79/930279ad3861705a190273f3cbd554e9.jpg",
+            "type": "bento"
+        },
+        {
+        "_id": "food5",
+        "name": "Maguro Nigiri 2pcs",
+        "price": 60000,
+        "desc": "Tuna Nigiri Sushi",
+        "picturePath": "https://i.pinimg.com/236x/87/24/d9/8724d95a04ca1a9560e5e4fb93207d8f.jpg",
+        "type": "sushi"
+    },
+    {
+        "_id": "food6",
+        "name": "Shimesaba Sashimi",
+        "price": 60000,
+        "desc": "Tuna Nigiri Sushi",
+        "picturePath": "https://i.pinimg.com/236x/b6/b0/cf/b6b0cff454535942b05c723f4ac628d0.jpg",
+        "type": "sushi"
+    }
+    ]
+}
