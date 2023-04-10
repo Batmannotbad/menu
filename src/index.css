@@ -441,6 +441,78 @@ form.checkoutForm{
   .error-message{
     color:#ff392e;
   }
+  /* product detail */
+  .ReactModal__Content {
+    background-color: rgb(252, 239, 239);
+    border-radius: 30px;
+  }
+  
+  .ReactModal__Content--after-open {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    overflow: auto;
+  }
+  
+  .product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-direction: column;
+    max-height: 96vh;
+    align-items: center;
+    transform: scale(0.8);
+  }
+  .product-detail img {
+    border-radius: 30px;
+    max-width: 46rem;
+    max-height: 100vh;
+    margin: 1rem auto;
+  }
+  .product-detail .desc {
+    padding: 0 20px;
+    flex: 1 1;
+    margin: 1rem;
+  }
+  .close-modal{
+    position: absolute;
+    right: 1rem;
+    top:1rem;
+    z-index:1000 ;
+  }
+  .product-detail {
+    font-size: 1.5rem;
+  }
+  
+  .product-detail button.btn {
+    border: 2px solid #ff392e;
+    background-color: transparent;
+    border-radius: 30px;
+    color: #ff392e;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .product-detail button.btn:hover{
+    background-color: #ff392e;
+    color: #fffbfb;
+  }
+  .product-detail p{
+    padding: 0.5rem;
+  }
+  .product-detail div{
+    padding: 0.26rem;
+  }
+  .btn.close-modal{
+    border: 2px solid #ff392e;
+    background-color: transparent;
+    border-radius: 30px;
+    color: #ff392e;
+    font-weight: 600;
+  }
+  
+  
+  
   /*-----------------------------------*\
     #FOOTER
   \*-----------------------------------*/
