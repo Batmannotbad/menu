@@ -438,6 +438,9 @@ form.checkoutForm{
     padding: 0.5rem;
   }
   */
+  .error-message{
+    color:#ff392e;
+  }
   /*-----------------------------------*\
     #FOOTER
   \*-----------------------------------*/
