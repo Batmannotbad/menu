@@ -82,15 +82,13 @@
   }
   /* .home{
     background-color: #1c1c1c;
-  } */
-  
-  .container { 
+  } */checkout-form { 
       padding-inline: 15px; 
       max-width: 1200px;
       margin: auto;
   }
   
-  .div-container {
+  checkout-form {
       max-width: 900px;
       padding-inline: 15px;
       margin: auto;
@@ -164,7 +162,7 @@
       text-transform: uppercase;
   }
   
-  .header .container {
+  .heacheckout-form {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -382,6 +380,64 @@ select option {
     font-weight: var(--fw-600);
     color: var(--red);
 }
+
+/* Form */
+form {
+    font-family: 'Dongle', sans-serif;
+    width: 100%;
+  }
+form.checkoutForm{
+    padding:1rem;
+}
+  .checkoutForm {
+    border: 2px var(--red) solid;
+    border-radius: 40px;
+    font-family: 'Dongle', sans-serif;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .checkoutForm div{
+    font-family: 'Dongle', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+  }
+  .checkoutForm div label{
+    font-family: 'Dongle', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 1rem;
+  }
+  .checkoutForm li {
+    font-family: 'Dongle', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  input,
+  textarea {
+    font-size: 1rem;
+    font-family: 'Dongle', sans-serif;
+    width: 70%;
+    padding: 0.5rem;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 10px;
+  }
+  /* textarea{
+    font-size: 1rem;
+    font-family: 'Dongle', sans-serif;
+    width: 70%;
+    padding: 0.5rem;
+  }
+  */
   /*-----------------------------------*\
     #FOOTER
   \*-----------------------------------*/
@@ -448,13 +504,12 @@ select option {
           line-height: 20px;
           overflow-x: hidden;
       }
-  
-      .container { 
+    checkout-form { 
           padding-inline: 15px; 
           margin: auto;
       }
       
-      .div-container {
+      checkout-form {
           padding-inline: 15px;
           margin: auto;
       }
@@ -472,7 +527,7 @@ select option {
           padding: 0;
       }
   
-      .header .container {
+      .heacheckout-form {
           padding-block: 12px 11px;
           background-color: rgb(249,213,251);
       }
@@ -531,7 +586,7 @@ select option {
       #HERO
       \*-----------------------------------*/
   
-      .hero .container {
+      .hcheckout-form {
           display: block !important;
           /* grid-template-columns: 1fr;
           gap: 60px; */
@@ -847,7 +902,7 @@ select option {
           font-size: 20px;
       }
   
-      .booking-form-container {
+      .booking-checkout-form {
           grid-template-columns: 1fr;
       }
       
@@ -889,13 +944,12 @@ select option {
           font-size: 30px;
           line-height: 20px;
       }
-  
-      .container { 
+checkout-form { 
           padding-inline: 20px; 
           margin: auto;
       }
       
-      .div-container {
+      checkout-form {
           padding-inline: 25px;
           margin: auto;
       }
@@ -908,7 +962,7 @@ select option {
       #HERO
       \*-----------------------------------*/
   
-      .hero .container {
+      .hcheckout-form {
           grid-template-columns: 1fr;
           gap: 60px;
           padding-top: 50px;
@@ -1019,7 +1073,7 @@ select option {
           font-size: 30px;
       }
   
-      .booking-form-container {
+      .booking-checkout-form {
           grid-template-columns: 1fr;
       }
       
